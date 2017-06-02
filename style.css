@@ -1,8 +1,5 @@
 * {
     -webkit-box-sizing:border-box;
-    -moz-box-sizing:border-box;
-    -ms-box-sizing:border-box;
-    -o-box-sizing:border-box;
     box-sizing:border-box;
 }
 
@@ -36,7 +33,7 @@ header h1 {
     display:-webkit-flex;
     display:-ms-flexbox;
     display:flex;
-    flex:row wrap;
+    flex-flow:row wrap;
     width:100%;
     margin:auto;
 }
@@ -71,6 +68,10 @@ footer p {
 .sectionone, .sectiontwo {
     width:100%;
     border-bottom: solid 1px;
+}
+
+aside ul li {
+    padding:3px;
 }
 
 
