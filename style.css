@@ -62,17 +62,22 @@ footer p {
     margin-bottom:5px;
 }
 
-.sectionleft {
+.leftsection {
     width:100%;
     border-bottom: solid 1px;
 }
 
-section .sectionleft {
+.nobottomborder {
     border:none;
 }
 
 aside ul li {
     padding:3px;
+}
+
+img {
+    width:50%;
+    border-radius:50%;
 }
 
 
